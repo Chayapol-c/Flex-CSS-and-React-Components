@@ -154,18 +154,20 @@ button {
 #flex-2 {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 #flex-3 {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-self: start;
+  margin-right: auto;
 }
 
 #flex-4 {
   display: flex;
   align-items: center;
+  justify-self: end;
+  margin-left: auto;
 }
 
 #flex-5 {
@@ -193,14 +195,14 @@ button {
 }
 
 #flex-9 {
-  flex-grow: 1;
+  flex-grow: 2;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 #flex-10 {
-  flex-grow: 2;
+  flex-grow: 3;
   display: flex;
   flex-direction: column;
 }
