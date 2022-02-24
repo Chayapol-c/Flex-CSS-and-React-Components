@@ -154,20 +154,19 @@ button {
 #flex-2 {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 #flex-3 {
   display: flex;
   align-items: center;
   justify-self: start;
-  margin-right: auto;
 }
 
 #flex-4 {
   display: flex;
   align-items: center;
   justify-self: end;
-  margin-left: auto;
 }
 
 #flex-5 {
